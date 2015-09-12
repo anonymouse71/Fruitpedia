@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	
+    <!-- 標籤頁次下 水果列表 說明文字 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:textSize="10sp"
+	    android:textColor="#222222"
+	    android:gravity="center"
+	    android:layout_marginTop="5dp"
+        android:text="@string/textviewPrompt_fruit" />
+    
+    <!-- 標籤頁次下 水果列表 -->
+	<ListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+		android:layout_weight="1"
+		android:drawSelectorOnTop="false" >
+   	</ListView>
+   	
+</LinearLayout >
+	

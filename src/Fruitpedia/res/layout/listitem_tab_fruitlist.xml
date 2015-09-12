@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 水果列表 每列的樣式 -->
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >   
+	    <!-- 水果圖片 -->
+		<ImageView 
+		    android:id="@+id/imageId_fruit"
+			android:layout_marginRight="5dp"
+			android:layout_marginLeft="4dp"
+			android:layout_gravity="center"
+			android:layout_width="80dp" 
+	        android:layout_height="80dp" 
+			android:contentDescription="@string/imageview_ContDesc" />	
+		
+		<!-- 水果名稱 -->	
+		<TextView 
+		    android:id="@+id/textviewId_fruit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20sp"
+			android:layout_gravity="center_vertical" />	
+	</LinearLayout>	
+	
+	<!-- 水果項目的前往箭頭 -->	
+	<ImageView 
+	    android:id="@+id/imageId_arrow"
+		android:layout_width="10dp"
+		android:layout_height="10dp"
+		android:layout_gravity="center"
+		android:layout_centerVertical="true"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="20dp"
+		android:src="@drawable/fruititem_arrow"
+		android:contentDescription="@string/imageview_ContDesc" />		
+</RelativeLayout>

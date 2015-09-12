@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- 搜尋欄 Search bar -->
+    <item 
+		android:id="@+id/actionbarId_search"
+		android:title="@string/actionbar_search"		
+		android:icon="@drawable/ic_action_search"
+		android:showAsAction="ifRoom"
+		android:actionViewClass="android.widget.SearchView" />
+
+    <!-- 佈告欄更新 Refresh the bulletin
+    <item 
+   	    android:id="@+id/actionbarId_refresh" 
+   	    android:title="@string/actionbar_refresh"
+   	    android:icon="@drawable/ic_action_refresh"
+   	    android:showAsAction="ifRoom"/>-->
+    
+    <!-- 加入我的最愛 add to favorites-->
+    <item 
+   	    android:id="@+id/actionbarId_addToFavorites" 
+   	    android:title="@string/actionbar_addToFavorites"
+   	    android:icon="@drawable/ic_action_favorite"
+   	    android:showAsAction="ifRoom"/>
+    
+    <!-- 清空我的最愛 Clean the favorites -->
+	<item 
+	   	android:id="@+id/menuId_clearFavorite" 
+	   	android:title="@string/menu_clearFavorite"/>    
+    
+	<!-- 關於 Info -->
+	<item 
+	   	android:id="@+id/menuId_Info" 
+	   	android:title="@string/menu_info"/>
+
+</menu>

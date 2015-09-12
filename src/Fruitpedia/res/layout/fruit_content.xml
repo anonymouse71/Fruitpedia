@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 水果內文格式 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">   
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+    
+    <!-- 水果照片 -->
+    <ImageView  
+			android:layout_width="180dp" 
+	        android:layout_height="180dp" 
+        	android:layout_gravity="center"
+        	android:id="@+id/imgIdFruitMain" />
+    
+    <!-- 產地 -->
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+    	<ImageView  
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:src="@drawable/placeofproduction_icon" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="7dp"
+	        android:text="@string/placeOfProduction" 
+	        android:textSize="22sp"/>
+    </LinearLayout>
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIdPlaceOfProduction"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <!-- 產季 -->
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+    	<ImageView 
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:src="@drawable/season_icon" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="7dp"	        
+	        android:text="@string/season" 
+	        android:textSize="22sp"/>
+	</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIdSeason"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        
+    <!-- 營養價值 -->
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+    	<ImageView 
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"       	
+        	android:src="@drawable/nutrition_icon" />
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="7dp"	 	      
+	        android:text="@string/nutrition" 
+	        android:textSize="22sp"/>
+	</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIdNutrition"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        
+    <!-- 特色介紹 -->
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+    	<ImageView 
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"        	
+        	android:src="@drawable/feature_icon" />        
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="7dp"		        
+	        android:text="@string/feature" 
+	        android:textSize="22sp"/>
+	</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIdFeature"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        
+    <!-- 選購秘訣 -->
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+    	<ImageView 
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"       	
+        	android:src="@drawable/pick_icon" />  	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="7dp"		        
+	        android:text="@string/pick" 
+	        android:textSize="22sp"/>
+	</LinearLayout>>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIdPick"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        
+    <!-- 貼心叮嚀 -->
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">  
+    	<ImageView 
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"        	
+        	android:src="@drawable/remind_icon" />     	  
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="7dp"	 	        
+	        android:text="@string/remind" 
+	        android:textSize="22sp"/>
+	</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIdRemind"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	    
+</LinearLayout>
+</ScrollView> 
